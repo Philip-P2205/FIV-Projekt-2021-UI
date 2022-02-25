@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'FIV-Project'`, () => {
+  it(`should have as title 'FIVProjekt2021'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('FIV-Project');
+    expect(app.title).toEqual('FIVProjekt2021');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('FIV-Project app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('FIVProjekt2021 app is running!');
   });
 });
